@@ -1,0 +1,51 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>LogInController</servlet-name>
+    <display-name>LogInController</display-name>
+    <description></description>
+    <servlet-class>com.illya.web.view.LogInController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogInController</servlet-name>
+    <url-pattern>/webcontent/jsplayouts/loginUser</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <description></description>
+  <display-name>RegistrationController</display-name>
+  <servlet-name>RegistrationController</servlet-name>
+  <servlet-class>com.illya.web.view.RegistrationController</servlet-class>
+</servlet>
+  <servlet-mapping>
+    <servlet-name>RegistrationController</servlet-name>
+    <url-pattern>/webcontent/jsplayouts/registrationUser</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description></description>
+    <display-name>LogOutController</display-name>
+    <servlet-name>LogOutController</servlet-name>
+    <servlet-class>com.illya.web.view.LogOutController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogOutController</servlet-name>
+    <url-pattern>/webcontent/jsplayouts/userLogout</url-pattern>
+  </servlet-mapping>
+
+  <!--<servlet>-->
+    <!--<description></description>-->
+    <!--<display-name>userComplaint</display-name>-->
+    <!--<servlet-name>userComplaint</servlet-name>-->
+    <!--<servlet-class>com.illya.web.view.userComplaint.jsp</servlet-class>-->
+  <!--</servlet>-->
+  <!--<servlet-mapping>-->
+    <!--<servlet-name>userComplaint</servlet-name>-->
+    <!--<url-pattern>/webcontent/jsplayouts/userComplaint</url-pattern>-->
+  <!--</servlet-mapping>-->
+
+</web-app>
